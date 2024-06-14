@@ -1,0 +1,454 @@
+{
+  "list": [
+    {
+      "id": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+      "userId": "bdd7b605-0dc3-498d-8569-4f364da02723",
+      "createdAt": "2024-06-07T21:06:44.403Z",
+      "user": {
+        "name": "lucas"
+      },
+      "tradeCards": [
+        {
+          "id": "828236e0-e37e-405b-b878-70242963a730",
+          "cardId": "58c19f1d-21d0-4f9f-9684-6c8c2c7426f2",
+          "tradeId": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+          "type": "OFFERING",
+          "card": {
+            "id": "58c19f1d-21d0-4f9f-9684-6c8c2c7426f2",
+            "name": "Ancestor's Chosen",
+            "description": "First strike (This creature deals combat damage before creatures without first strike.)\nWhen Ancestor's Chosen enters the battlefield, you gain 1 life for each card in your graveyard.",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=130550&type=card",
+            "createdAt": "2024-06-07T12:56:03.832Z"
+          }
+        },
+        {
+          "id": "47ad41f2-0801-4f95-a954-6f44eed5f05e",
+          "cardId": "cf3656ff-3226-448f-96d2-563b05ad349f",
+          "tradeId": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+          "type": "OFFERING",
+          "card": {
+            "id": "cf3656ff-3226-448f-96d2-563b05ad349f",
+            "name": "Angelic Blessing",
+            "description": "Target creature gets +3/+3 and gains flying until end of turn. (It can't be blocked except by creatures with flying or reach.)",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=130550&type=card",
+            "createdAt": "2024-06-07T12:57:22.109Z"
+          }
+        },
+        {
+          "id": "47ad41f2-0801-4f95-a954-6f44eed5f05e",
+          "cardId": "cf3656ff-3226-448f-96d2-563b05ad349f",
+          "tradeId": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+          "type": "OFFERING",
+          "card": {
+            "id": "cf3656ff-3226-448f-96d2-563b05ad349f",
+            "name": "Angelic Blessing",
+            "description": "Target creature gets +3/+3 and gains flying until end of turn. (It can't be blocked except by creatures with flying or reach.)",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129711&type=card",
+            "createdAt": "2024-06-07T12:57:22.109Z"
+          }
+        },
+        {
+          "id": "dc6a0682-82f0-4a49-b001-162cd034871c",
+          "cardId": "c8f14f4d-7157-4b23-bdf8-aa694e411105",
+          "tradeId": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+          "type": "RECEIVING",
+          "card": {
+            "id": "c8f14f4d-7157-4b23-bdf8-aa694e411105",
+            "name": "Angelic Wall",
+            "description": "Defender (This creature can't attack.)\nFlying",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129671&type=card",
+            "createdAt": "2024-06-07T12:57:23.107Z"
+          }
+        },
+        {
+          "id": "dc6a0682-82f0-4a49-b001-162cd034871c",
+          "cardId": "c8f14f4d-7157-4b23-bdf8-aa694e411105",
+          "tradeId": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+          "type": "RECEIVING",
+          "card": {
+            "id": "c8f14f4d-7157-4b23-bdf8-aa694e411105",
+            "name": "Angelic Wall",
+            "description": "Defender (This creature can't attack.)\nFlying",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129671&type=card",
+            "createdAt": "2024-06-07T12:57:23.107Z"
+          }
+        },
+        {
+          "id": "05139630-f6bf-4d9d-bde4-69c87a3b6c18",
+          "cardId": "bc2508fc-dfbc-4757-8a43-91225ba45562",
+          "tradeId": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+          "type": "RECEIVING",
+          "card": {
+            "id": "bc2508fc-dfbc-4757-8a43-91225ba45562",
+            "name": "Angelic Wall",
+            "description": "Defender (This creature can't attack.)\nFlying",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129671&type=card",
+            "createdAt": "2024-06-07T12:58:34.258Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+      "userId": "bdd7b605-0dc3-498d-8569-4f364da02723",
+      "createdAt": "2024-06-07T21:06:44.403Z",
+      "user": {
+        "name": "lucas"
+      },
+      "tradeCards": [
+        {
+          "id": "828236e0-e37e-405b-b878-70242963a730",
+          "cardId": "58c19f1d-21d0-4f9f-9684-6c8c2c7426f2",
+          "tradeId": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+          "type": "OFFERING",
+          "card": {
+            "id": "58c19f1d-21d0-4f9f-9684-6c8c2c7426f2",
+            "name": "Ancestor's Chosen",
+            "description": "First strike (This creature deals combat damage before creatures without first strike.)\nWhen Ancestor's Chosen enters the battlefield, you gain 1 life for each card in your graveyard.",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=130550&type=card",
+            "createdAt": "2024-06-07T12:56:03.832Z"
+          }
+        },
+        {
+          "id": "47ad41f2-0801-4f95-a954-6f44eed5f05e",
+          "cardId": "cf3656ff-3226-448f-96d2-563b05ad349f",
+          "tradeId": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+          "type": "OFFERING",
+          "card": {
+            "id": "cf3656ff-3226-448f-96d2-563b05ad349f",
+            "name": "Angelic Blessing",
+            "description": "Target creature gets +3/+3 and gains flying until end of turn. (It can't be blocked except by creatures with flying or reach.)",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129711&type=card",
+            "createdAt": "2024-06-07T12:57:22.109Z"
+          }
+        },
+        {
+          "id": "dc6a0682-82f0-4a49-b001-162cd034871c",
+          "cardId": "c8f14f4d-7157-4b23-bdf8-aa694e411105",
+          "tradeId": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+          "type": "RECEIVING",
+          "card": {
+            "id": "c8f14f4d-7157-4b23-bdf8-aa694e411105",
+            "name": "Angelic Wall",
+            "description": "Defender (This creature can't attack.)\nFlying",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129671&type=card",
+            "createdAt": "2024-06-07T12:57:23.107Z"
+          }
+        },
+        {
+          "id": "05139630-f6bf-4d9d-bde4-69c87a3b6c18",
+          "cardId": "bc2508fc-dfbc-4757-8a43-91225ba45562",
+          "tradeId": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+          "type": "RECEIVING",
+          "card": {
+            "id": "bc2508fc-dfbc-4757-8a43-91225ba45562",
+            "name": "Angelic Wall",
+            "description": "Defender (This creature can't attack.)\nFlying",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129671&type=card",
+            "createdAt": "2024-06-07T12:58:34.258Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+      "userId": "bdd7b605-0dc3-498d-8569-4f364da02723",
+      "createdAt": "2024-06-07T21:06:44.403Z",
+      "user": {
+        "name": "lucas"
+      },
+      "tradeCards": [
+        {
+          "id": "828236e0-e37e-405b-b878-70242963a730",
+          "cardId": "58c19f1d-21d0-4f9f-9684-6c8c2c7426f2",
+          "tradeId": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+          "type": "OFFERING",
+          "card": {
+            "id": "58c19f1d-21d0-4f9f-9684-6c8c2c7426f2",
+            "name": "Ancestor's Chosen",
+            "description": "First strike (This creature deals combat damage before creatures without first strike.)\nWhen Ancestor's Chosen enters the battlefield, you gain 1 life for each card in your graveyard.",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=130550&type=card",
+            "createdAt": "2024-06-07T12:56:03.832Z"
+          }
+        },
+        {
+          "id": "47ad41f2-0801-4f95-a954-6f44eed5f05e",
+          "cardId": "cf3656ff-3226-448f-96d2-563b05ad349f",
+          "tradeId": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+          "type": "OFFERING",
+          "card": {
+            "id": "cf3656ff-3226-448f-96d2-563b05ad349f",
+            "name": "Angelic Blessing",
+            "description": "Target creature gets +3/+3 and gains flying until end of turn. (It can't be blocked except by creatures with flying or reach.)",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129711&type=card",
+            "createdAt": "2024-06-07T12:57:22.109Z"
+          }
+        },
+        {
+          "id": "dc6a0682-82f0-4a49-b001-162cd034871c",
+          "cardId": "c8f14f4d-7157-4b23-bdf8-aa694e411105",
+          "tradeId": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+          "type": "RECEIVING",
+          "card": {
+            "id": "c8f14f4d-7157-4b23-bdf8-aa694e411105",
+            "name": "Angelic Wall",
+            "description": "Defender (This creature can't attack.)\nFlying",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129671&type=card",
+            "createdAt": "2024-06-07T12:57:23.107Z"
+          }
+        },
+        {
+          "id": "05139630-f6bf-4d9d-bde4-69c87a3b6c18",
+          "cardId": "bc2508fc-dfbc-4757-8a43-91225ba45562",
+          "tradeId": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+          "type": "RECEIVING",
+          "card": {
+            "id": "bc2508fc-dfbc-4757-8a43-91225ba45562",
+            "name": "Angelic Wall",
+            "description": "Defender (This creature can't attack.)\nFlying",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129671&type=card",
+            "createdAt": "2024-06-07T12:58:34.258Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+      "userId": "bdd7b605-0dc3-498d-8569-4f364da02723",
+      "createdAt": "2024-06-07T21:06:44.403Z",
+      "user": {
+        "name": "lucas"
+      },
+      "tradeCards": [
+        {
+          "id": "828236e0-e37e-405b-b878-70242963a730",
+          "cardId": "58c19f1d-21d0-4f9f-9684-6c8c2c7426f2",
+          "tradeId": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+          "type": "OFFERING",
+          "card": {
+            "id": "58c19f1d-21d0-4f9f-9684-6c8c2c7426f2",
+            "name": "Ancestor's Chosen",
+            "description": "First strike (This creature deals combat damage before creatures without first strike.)\nWhen Ancestor's Chosen enters the battlefield, you gain 1 life for each card in your graveyard.",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=130550&type=card",
+            "createdAt": "2024-06-07T12:56:03.832Z"
+          }
+        },
+        {
+          "id": "47ad41f2-0801-4f95-a954-6f44eed5f05e",
+          "cardId": "cf3656ff-3226-448f-96d2-563b05ad349f",
+          "tradeId": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+          "type": "OFFERING",
+          "card": {
+            "id": "cf3656ff-3226-448f-96d2-563b05ad349f",
+            "name": "Angelic Blessing",
+            "description": "Target creature gets +3/+3 and gains flying until end of turn. (It can't be blocked except by creatures with flying or reach.)",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129711&type=card",
+            "createdAt": "2024-06-07T12:57:22.109Z"
+          }
+        },
+        {
+          "id": "dc6a0682-82f0-4a49-b001-162cd034871c",
+          "cardId": "c8f14f4d-7157-4b23-bdf8-aa694e411105",
+          "tradeId": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+          "type": "RECEIVING",
+          "card": {
+            "id": "c8f14f4d-7157-4b23-bdf8-aa694e411105",
+            "name": "Angelic Wall",
+            "description": "Defender (This creature can't attack.)\nFlying",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129671&type=card",
+            "createdAt": "2024-06-07T12:57:23.107Z"
+          }
+        },
+        {
+          "id": "05139630-f6bf-4d9d-bde4-69c87a3b6c18",
+          "cardId": "bc2508fc-dfbc-4757-8a43-91225ba45562",
+          "tradeId": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+          "type": "RECEIVING",
+          "card": {
+            "id": "bc2508fc-dfbc-4757-8a43-91225ba45562",
+            "name": "Angelic Wall",
+            "description": "Defender (This creature can't attack.)\nFlying",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129671&type=card",
+            "createdAt": "2024-06-07T12:58:34.258Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+      "userId": "bdd7b605-0dc3-498d-8569-4f364da02723",
+      "createdAt": "2024-06-07T21:06:44.403Z",
+      "user": {
+        "name": "lucas"
+      },
+      "tradeCards": [
+        {
+          "id": "828236e0-e37e-405b-b878-70242963a730",
+          "cardId": "58c19f1d-21d0-4f9f-9684-6c8c2c7426f2",
+          "tradeId": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+          "type": "OFFERING",
+          "card": {
+            "id": "58c19f1d-21d0-4f9f-9684-6c8c2c7426f2",
+            "name": "Ancestor's Chosen",
+            "description": "First strike (This creature deals combat damage before creatures without first strike.)\nWhen Ancestor's Chosen enters the battlefield, you gain 1 life for each card in your graveyard.",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=130550&type=card",
+            "createdAt": "2024-06-07T12:56:03.832Z"
+          }
+        },
+        {
+          "id": "47ad41f2-0801-4f95-a954-6f44eed5f05e",
+          "cardId": "cf3656ff-3226-448f-96d2-563b05ad349f",
+          "tradeId": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+          "type": "OFFERING",
+          "card": {
+            "id": "cf3656ff-3226-448f-96d2-563b05ad349f",
+            "name": "Angelic Blessing",
+            "description": "Target creature gets +3/+3 and gains flying until end of turn. (It can't be blocked except by creatures with flying or reach.)",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129711&type=card",
+            "createdAt": "2024-06-07T12:57:22.109Z"
+          }
+        },
+        {
+          "id": "dc6a0682-82f0-4a49-b001-162cd034871c",
+          "cardId": "c8f14f4d-7157-4b23-bdf8-aa694e411105",
+          "tradeId": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+          "type": "RECEIVING",
+          "card": {
+            "id": "c8f14f4d-7157-4b23-bdf8-aa694e411105",
+            "name": "Angelic Wall",
+            "description": "Defender (This creature can't attack.)\nFlying",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129671&type=card",
+            "createdAt": "2024-06-07T12:57:23.107Z"
+          }
+        },
+        {
+          "id": "05139630-f6bf-4d9d-bde4-69c87a3b6c18",
+          "cardId": "bc2508fc-dfbc-4757-8a43-91225ba45562",
+          "tradeId": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+          "type": "RECEIVING",
+          "card": {
+            "id": "bc2508fc-dfbc-4757-8a43-91225ba45562",
+            "name": "Angelic Wall",
+            "description": "Defender (This creature can't attack.)\nFlying",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129671&type=card",
+            "createdAt": "2024-06-07T12:58:34.258Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+      "userId": "bdd7b605-0dc3-498d-8569-4f364da02723",
+      "createdAt": "2024-06-07T21:06:44.403Z",
+      "user": {
+        "name": "lucas"
+      },
+      "tradeCards": [
+        {
+          "id": "828236e0-e37e-405b-b878-70242963a730",
+          "cardId": "58c19f1d-21d0-4f9f-9684-6c8c2c7426f2",
+          "tradeId": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+          "type": "OFFERING",
+          "card": {
+            "id": "58c19f1d-21d0-4f9f-9684-6c8c2c7426f2",
+            "name": "Ancestor's Chosen",
+            "description": "First strike (This creature deals combat damage before creatures without first strike.)\nWhen Ancestor's Chosen enters the battlefield, you gain 1 life for each card in your graveyard.",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=130550&type=card",
+            "createdAt": "2024-06-07T12:56:03.832Z"
+          }
+        },
+        {
+          "id": "47ad41f2-0801-4f95-a954-6f44eed5f05e",
+          "cardId": "cf3656ff-3226-448f-96d2-563b05ad349f",
+          "tradeId": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+          "type": "OFFERING",
+          "card": {
+            "id": "cf3656ff-3226-448f-96d2-563b05ad349f",
+            "name": "Angelic Blessing",
+            "description": "Target creature gets +3/+3 and gains flying until end of turn. (It can't be blocked except by creatures with flying or reach.)",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129711&type=card",
+            "createdAt": "2024-06-07T12:57:22.109Z"
+          }
+        },
+        {
+          "id": "dc6a0682-82f0-4a49-b001-162cd034871c",
+          "cardId": "c8f14f4d-7157-4b23-bdf8-aa694e411105",
+          "tradeId": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+          "type": "RECEIVING",
+          "card": {
+            "id": "c8f14f4d-7157-4b23-bdf8-aa694e411105",
+            "name": "Angelic Wall",
+            "description": "Defender (This creature can't attack.)\nFlying",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129671&type=card",
+            "createdAt": "2024-06-07T12:57:23.107Z"
+          }
+        },
+        {
+          "id": "05139630-f6bf-4d9d-bde4-69c87a3b6c18",
+          "cardId": "bc2508fc-dfbc-4757-8a43-91225ba45562",
+          "tradeId": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+          "type": "RECEIVING",
+          "card": {
+            "id": "bc2508fc-dfbc-4757-8a43-91225ba45562",
+            "name": "Angelic Wall",
+            "description": "Defender (This creature can't attack.)\nFlying",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129671&type=card",
+            "createdAt": "2024-06-07T12:58:34.258Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+      "userId": "bdd7b605-0dc3-498d-8569-4f364da02723",
+      "createdAt": "2024-06-07T21:06:44.403Z",
+      "user": {
+        "name": "lucas"
+      },
+      "tradeCards": [
+        {
+          "id": "47ad41f2-0801-4f95-a954-6f44eed5f05e",
+          "cardId": "cf3656ff-3226-448f-96d2-563b05ad349f",
+          "tradeId": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+          "type": "OFFERING",
+          "card": {
+            "id": "cf3656ff-3226-448f-96d2-563b05ad349f",
+            "name": "Angelic Blessing",
+            "description": "Target creature gets +3/+3 and gains flying until end of turn. (It can't be blocked except by creatures with flying or reach.)",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129711&type=card",
+            "createdAt": "2024-06-07T12:57:22.109Z"
+          }
+        },
+        {
+          "id": "dc6a0682-82f0-4a49-b001-162cd034871c",
+          "cardId": "c8f14f4d-7157-4b23-bdf8-aa694e411105",
+          "tradeId": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+          "type": "RECEIVING",
+          "card": {
+            "id": "c8f14f4d-7157-4b23-bdf8-aa694e411105",
+            "name": "Angelic Wall",
+            "description": "Defender (This creature can't attack.)\nFlying",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129671&type=card",
+            "createdAt": "2024-06-07T12:57:23.107Z"
+          }
+        },
+        {
+          "id": "05139630-f6bf-4d9d-bde4-69c87a3b6c18",
+          "cardId": "bc2508fc-dfbc-4757-8a43-91225ba45562",
+          "tradeId": "d9ba8d57-283a-4ce4-9f64-b4da73869851",
+          "type": "RECEIVING",
+          "card": {
+            "id": "bc2508fc-dfbc-4757-8a43-91225ba45562",
+            "name": "Angelic Wall",
+            "description": "Defender (This creature can't attack.)\nFlying",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129671&type=card",
+            "createdAt": "2024-06-07T12:58:34.258Z"
+          }
+        }
+      ]
+    }
+  ],
+  "rpp": 2,
+  "page": 1,
+  "more": true
+}
