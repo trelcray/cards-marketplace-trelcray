@@ -102,7 +102,10 @@ export const TradeCard: React.FC<ITradeCardProps> = ({
             );
           })}
           {offeringCards.length > 2 && (
-            <Button className="w-full bg-slate-500 hover:bg-slate-500/90">
+            <Button
+              onClick={handleDetailsClick}
+              className="w-full bg-slate-500 hover:bg-slate-500/90"
+            >
               <span className="font-bold">+ {offeringCards.length - 2}</span>
             </Button>
           )}
@@ -118,7 +121,7 @@ export const TradeCard: React.FC<ITradeCardProps> = ({
                 alt="imagem da carta"
                 quality={100}
                 priority
-                src={tradeCard.card.imageUrl}
+                src={tradeCard.card.imageUrl ?? "/images/image.png"}
                 className={cn(
                   "absolute top-0 h-28 w-24 odd:left-0 even:right-0"
                 )}
