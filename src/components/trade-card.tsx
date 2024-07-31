@@ -5,30 +5,17 @@ import { ptBR } from "date-fns/locale";
 import { ArrowRightLeft, XCircle } from "lucide-react";
 import Image from "next/image";
 
+import { ITradeCard } from "@/@types";
 import { useDetailsModal } from "@/hooks/use-details-modal";
 import { cn } from "@/lib/utils";
 
 import { Dialog } from "./dialog";
 import { Button } from "./ui/button";
 
-interface ICards {
-  id: string;
-  cardId: string;
-  tradeId: string;
-  type: string;
-  card: {
-    id: string;
-    name: string;
-    description: string;
-    imageUrl: string;
-    createdAt: Date;
-  };
-}
-
 interface ITradeCardProps {
   tradeId?: string;
-  offeringCards: ICards[];
-  receivingCards: ICards[];
+  offeringCards: ITradeCard[];
+  receivingCards: ITradeCard[];
   index: number;
   user: { name: string };
   createdAt: Date | string;

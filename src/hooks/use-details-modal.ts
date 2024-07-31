@@ -1,20 +1,6 @@
 import { create } from "zustand";
 
-interface ICard {
-  id: string;
-  name: string;
-  description: string;
-  imageUrl: string;
-  createdAt: Date;
-}
-
-interface ITradeDetails {
-  tradeId?: string;
-  offeringCards: ICard[];
-  receivingCards: ICard[];
-  user: { name: string };
-  createdAt: Date | string;
-}
+import { ITradeDetails } from "@/@types";
 
 interface ModalState {
   isOpen: boolean;

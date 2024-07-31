@@ -5,11 +5,11 @@ import Image from "next/image";
 import { toast } from "sonner";
 
 import { IAddCardResponse } from "@/@types";
-import { fetchWrapper } from "@/api/fetch";
-import { revalidateCards } from "@/lib/actions";
+import { revalidateCards } from "@/actions/revalidates";
+import { fetchWrapper } from "@/lib/fetch";
 import { cn } from "@/lib/utils";
 
-interface CardProps {
+interface ICardProps {
   id: string;
   name: string;
   description: string;
@@ -19,7 +19,7 @@ interface CardProps {
   isCreate?: boolean;
 }
 
-export const Card: React.FC<CardProps> = ({
+export const Card: React.FC<ICardProps> = ({
   id,
   description,
   imageUrl,

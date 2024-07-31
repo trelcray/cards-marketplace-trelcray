@@ -1,11 +1,11 @@
 import { ICurrentUserResponse, IGetTradeResponse, ITradeInfo } from "@/@types";
-import { fetchWrapper } from "@/api/fetch";
 import { EmptyState } from "@/components/empty-state";
 import { Error } from "@/components/error";
 import { Pagination } from "@/components/pagination";
 import { SelectRpp } from "@/components/select";
 import { Title } from "@/components/title";
 import { TradeCard } from "@/components/trade-card";
+import { fetchWrapper } from "@/lib/fetch";
 
 async function getData(rpp: string, page: number, more: boolean) {
   try {

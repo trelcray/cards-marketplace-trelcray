@@ -1,9 +1,9 @@
 import { ICard } from "@/@types";
-import { fetchWrapper } from "@/api/fetch";
 import { Card } from "@/components/card";
 import { EmptyState } from "@/components/empty-state";
 import { Error } from "@/components/error";
 import { Title } from "@/components/title";
+import { fetchWrapper } from "@/lib/fetch";
 
 async function getData() {
   try {

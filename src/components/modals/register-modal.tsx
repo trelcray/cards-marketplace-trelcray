@@ -1,14 +1,15 @@
 import { useCallback, useState } from "react";
-import { useForm } from "react-hook-form";
+import { SubmitHandler, useForm } from "react-hook-form";
 
 import { zodResolver } from "@hookform/resolvers/zod";
 import { toast } from "sonner";
 import { z } from "zod";
 
 import { IRegisterResponse } from "@/@types";
-import { fetchWrapper } from "@/api/fetch";
 import { useLoginModal } from "@/hooks/use-login-modal";
 import { useRegisterModal } from "@/hooks/use-register-modal";
+import { fetchWrapper } from "@/lib/fetch";
+import { signUpSchema } from "@/lib/schemas";
 
 import { Button } from "../ui/button";
 import {
@@ -22,19 +23,7 @@ import {
 import { Input } from "../ui/input";
 import { Modal } from "../ui/modal";
 
-const signUpForm = z
-  .object({
-    name: z.string().min(3, "Nome deve ter pelo menos 3 dígitos!"),
-    email: z.string().email("e-mail inválido!"),
-    password: z.string().min(6, "Senha deve ter pelo menos 6 dígitos!"),
-    confirmPassword: z.string(),
-  })
-  .refine((data) => data.password === data.confirmPassword, {
-    path: ["confirmPassword"],
-    message: "As senhas devem ser iguais!",
-  });
-
-type SignUpForm = z.infer<typeof signUpForm>;
+type SignUpSchema = z.infer<typeof signUpSchema>;
 
 export const RegisterModal = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -46,8 +35,8 @@ export const RegisterModal = () => {
     registerModal.onClose();
   }, [loginModal, registerModal]);
 
-  const form = useForm<SignUpForm>({
-    resolver: zodResolver(signUpForm),
+  const form = useForm<SignUpSchema>({
+    resolver: zodResolver(signUpSchema),
     defaultValues: {
       name: "",
       email: "",
@@ -60,7 +49,7 @@ export const RegisterModal = () => {
     return Object.values(values).every((value) => value.length > 0);
   };
 
-  async function handleSignUp(data: SignUpForm) {
+  const handleSignUp: SubmitHandler<SignUpSchema> = async (data) => {
     setIsLoading(true);
     try {
       await fetchWrapper<IRegisterResponse>("/register", {
@@ -79,7 +68,7 @@ export const RegisterModal = () => {
     } finally {
       setIsLoading(false);
     }
-  }
+  };
   return (
     <Modal
       title="Cadastrar"

@@ -2,7 +2,7 @@
 
 import { toast } from "sonner";
 
-import { fetchWrapper } from "@/api/fetch";
+import { revalidateTrades } from "@/actions/revalidates";
 import {
   AlertDialog,
   AlertDialogAction,
@@ -14,7 +14,7 @@ import {
   AlertDialogTitle,
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
-import { revalidateTrades } from "@/lib/actions";
+import { fetchWrapper } from "@/lib/fetch";
 
 interface IDialogProps {
   children: React.ReactElement;

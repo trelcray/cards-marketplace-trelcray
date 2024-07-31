@@ -1,12 +1,12 @@
 import { create } from "zustand";
 
-interface IuseRegisterModalStore {
+interface IUseRegisterModalStore {
   isOpen: boolean;
   onOpen: () => void;
   onClose: () => void;
 }
 
-export const useRegisterModal = create<IuseRegisterModalStore>((set) => ({
+export const useRegisterModal = create<IUseRegisterModalStore>((set) => ({
   isOpen: false,
   onOpen: () => set({ isOpen: true }),
   onClose: () => set({ isOpen: false }),

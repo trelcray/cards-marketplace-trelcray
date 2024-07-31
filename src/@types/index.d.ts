@@ -70,3 +70,11 @@ export interface ICreateTradeCardRequest {
 export interface ICreateTradeCardResponse {
   tradeId: string;
 }
+
+export interface ITradeDetails {
+  tradeId?: string;
+  offeringCards: ICard[];
+  receivingCards: ICard[];
+  user: { name: string };
+  createdAt: Date | string;
+}

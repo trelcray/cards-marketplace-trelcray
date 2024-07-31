@@ -1,8 +1,8 @@
 import { ICard, IGetCardsResponse } from "@/@types";
-import { fetchWrapper } from "@/api/fetch";
 import { EmptyState } from "@/components/empty-state";
 import { Error } from "@/components/error";
 import { Title } from "@/components/title";
+import { fetchWrapper } from "@/lib/fetch";
 
 import { TradeClient } from "./trade-client";
 

@@ -1,15 +1,16 @@
 "use client";
 
 import { useState } from "react";
-import { useForm } from "react-hook-form";
+import { SubmitHandler, useForm } from "react-hook-form";
 
 import { zodResolver } from "@hookform/resolvers/zod";
 import { toast } from "sonner";
 import { z } from "zod";
 
 import { ILoginResponse } from "@/@types";
-import { fetchWrapper } from "@/api/fetch";
 import { useLoginModal } from "@/hooks/use-login-modal";
+import { fetchWrapper } from "@/lib/fetch";
+import { signInSchema } from "@/lib/schemas";
 import { setCookies } from "@/utils/set-cookies";
 
 import { Button } from "../ui/button";
@@ -24,19 +25,14 @@ import {
 import { Input } from "../ui/input";
 import { Modal } from "../ui/modal";
 
-const signInForm = z.object({
-  email: z.string().email("e-mail inválido!"),
-  password: z.string().min(6, "Senha deve ter pelo menos 6 dígitos!"),
-});
-
-type SignInForm = z.infer<typeof signInForm>;
+type SignInSchema = z.infer<typeof signInSchema>;
 
 export const LoginModal = () => {
   const [isLoading, setIsLoading] = useState(false);
   const loginModal = useLoginModal();
 
-  const form = useForm<SignInForm>({
-    resolver: zodResolver(signInForm),
+  const form = useForm<SignInSchema>({
+    resolver: zodResolver(signInSchema),
     defaultValues: {
       email: "",
       password: "",
@@ -47,7 +43,7 @@ export const LoginModal = () => {
     return Object.values(values).every((value) => value.length > 0);
   };
 
-  async function handleSignIn(data: SignInForm) {
+  const handleSignIn: SubmitHandler<SignInSchema> = async (data) => {
     setIsLoading(true);
     try {
       const res = await fetchWrapper<ILoginResponse>("/login", {
@@ -62,7 +58,7 @@ export const LoginModal = () => {
     } finally {
       setIsLoading(false);
     }
-  }
+  };
   return (
     <Modal
       title="Login"

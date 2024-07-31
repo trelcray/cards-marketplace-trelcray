@@ -1,11 +1,11 @@
 import { IGetCardsResponse } from "@/@types";
-import { fetchWrapper } from "@/api/fetch";
 import { Card } from "@/components/card";
 import { EmptyState } from "@/components/empty-state";
 import { Error } from "@/components/error";
 import { Pagination } from "@/components/pagination";
 import { SelectRpp } from "@/components/select";
 import { Title } from "@/components/title";
+import { fetchWrapper } from "@/lib/fetch";
 
 async function getAllCards(rpp: string, page: number, more: boolean) {
   try {

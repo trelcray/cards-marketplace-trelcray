@@ -3,7 +3,10 @@ import { CheckCircle2 } from "lucide-react";
 interface IStepperProps {
   currentStep: number;
   complete: boolean;
-  steps: string[];
+  steps: {
+    name: string;
+    fields: string;
+  }[];
 }
 
 export const Stepper: React.FC<IStepperProps> = ({
@@ -27,7 +30,7 @@ export const Stepper: React.FC<IStepperProps> = ({
               i + 1
             )}
           </div>
-          <p className="text-gray-500">{step}</p>
+          <p className="text-gray-500">{step.name}</p>
         </div>
       ))}
     </div>

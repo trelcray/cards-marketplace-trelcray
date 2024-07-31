@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { FormProvider, useForm } from "react-hook-form";
+import { FormProvider, SubmitHandler, useForm } from "react-hook-form";
 
 import { zodResolver } from "@hookform/resolvers/zod";
 import { toast } from "sonner";
@@ -12,25 +12,20 @@ import {
   ICreateTradeCardRequest,
   ICreateTradeCardResponse,
 } from "@/@types";
-import { fetchWrapper } from "@/api/fetch";
+import { revalidateTrades } from "@/actions/revalidates";
 import { Step1 } from "@/components/trade/step1";
 import { Step2 } from "@/components/trade/step2";
 import { Button } from "@/components/ui/button";
 import { Stepper } from "@/components/ui/stepper";
-import { revalidateTrades } from "@/lib/actions";
-
-const cardSchema = z.object({
-  selectedOfferingCards: z
-    .array(z.string())
-    .min(1, "Você deve selecionar pelo menos um card."),
-  selectedReceivingCards: z
-    .array(z.string())
-    .min(1, "Você deve selecionar pelo menos um card."),
-});
+import { fetchWrapper } from "@/lib/fetch";
+import { cardSchema } from "@/lib/schemas";
 
 type CardSchema = z.infer<typeof cardSchema>;
 
-const steps = ["Carta a oferecer", "Carta a receber"];
+const steps = [
+  { name: "Carta a oferecer", fields: "selectedOfferingCards" },
+  { name: "Carta a receber", fields: "selectedReceivingCards" },
+];
 
 interface ITradeClientProps {
   cards: ICard[];
@@ -57,27 +52,26 @@ export const TradeClient: React.FC<ITradeClientProps> = ({
 
   const isLastStep = currentStep === steps.length;
 
-  const nextStep = async () => {
-    let valid = false;
-    if (currentStep === 1) {
-      valid = await trigger("selectedOfferingCards");
-    } else {
-      valid = await trigger("selectedReceivingCards");
-    }
+  type FieldName = keyof CardSchema;
 
-    if (valid) {
-      if (isLastStep) {
-        setComplete(true);
-        return handleSubmit(onSubmit)();
-      } else setCurrentStep((prev) => prev + 1);
+  const nextStep = async () => {
+    const fields = steps[currentStep].fields;
+    const output = await trigger(fields as FieldName, { shouldFocus: true });
+
+    if (!output) return;
+
+    if (isLastStep) {
+      setComplete(true);
+      return await handleSubmit(onSubmit)();
     }
+    setCurrentStep((prev) => prev + 1);
   };
 
   const prevStep = () => {
     setCurrentStep((prev) => prev - 1);
   };
 
-  const onSubmit = async (data: CardSchema) => {
+  const onSubmit: SubmitHandler<CardSchema> = async (data) => {
     setIsLoading(true);
 
     const offeringCards: ICreateTradeCardRequest[] =
